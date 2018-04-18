@@ -1,5 +1,7 @@
 # _*_ coding: utf-8 _*_
 
+import os
+
 u"""访问字典的值."""
 
 dict1 = {}
@@ -24,3 +26,5 @@ huangxiang
 False
 True
 """
+
+print(os.chdir)

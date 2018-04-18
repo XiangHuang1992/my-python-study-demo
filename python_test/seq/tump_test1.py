@@ -15,7 +15,7 @@ aTuple = aTuple[0], aTuple[1], aTuple[2]
 print(aTuple)
 print('*******************移除tuple的元素或其本身************************8')
 del aTuple
-#print(aTuple)
+# print(aTuple)
 
 """输出结果
 *******************创建tuple************************8
@@ -30,7 +30,8 @@ xiang
 (123, 'huang', ['huang', 'xiang'])
 *******************移除tuple的元素或其本身************************8
 Traceback (most recent call last):
-  File "/Users/ferdinand/my-python-study-demo/python_test/seq/tump_test1.py", line 18, in <module>
+  File "/Users/ferdinand/my-python-study-demo/python_test/seq/tump_test1.py",
+  line 18, in <module>
     print(aTuple)
 NameError: name 'aTuple' is not defined
 
